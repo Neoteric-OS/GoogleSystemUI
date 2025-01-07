@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_qs_screen_record_icon_on__12_res_0x7f080489">
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__0_res_0x7f080485"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__1_res_0x7f080486"/>
+    <target
+        android:name="_R_G_L_1_G"
+        android:animation="@drawable/_qs_screen_record_icon_on__2_res_0x7f08048a"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__3_res_0x7f08048b"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0_G_0_T_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__4_res_0x7f08048c"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_1"
+        android:animation="@drawable/_qs_screen_record_icon_on__5_res_0x7f08048d"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_1_G_0_T_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__6_res_0x7f08048e"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_2"
+        android:animation="@drawable/_qs_screen_record_icon_on__7_res_0x7f08048f"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_2_G_0_T_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__8_res_0x7f080490"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_3"
+        android:animation="@drawable/_qs_screen_record_icon_on__9_res_0x7f080491"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_3_G_0_T_0"
+        android:animation="@drawable/_qs_screen_record_icon_on__10_res_0x7f080487"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_qs_screen_record_icon_on__11_res_0x7f080488"/>
+</animated-vector>

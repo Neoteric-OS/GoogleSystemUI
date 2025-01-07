@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingStart="0dp"
+    android:paddingEnd="0dp"
+    android:paddingMode="stack">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="?android:^attr-private/colorSurfaceHighlight"/>
+            <corners android:radius="32dp"/>
+        </shape>
+    </item>
+    <item
+        android:gravity="end|center_vertical"
+        android:id="@+id/user_switcher_key_down"
+        android:height="32dp"
+        android:width="32dp"
+        android:drawable="@drawable/ic_ksh_key_down"
+        android:end="12dp"/>
+</layer-list>

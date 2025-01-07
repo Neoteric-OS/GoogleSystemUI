@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d дзень таму</item>
+        <item quantity="few">%d дні таму</item>
+        <item quantity="many">%d дзён таму</item>
+        <item quantity="other">%d дня таму</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d хв таму</item>
+        <item quantity="few">%d хв таму</item>
+        <item quantity="many">%d хв таму</item>
+        <item quantity="other">%d хв таму</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d год таму</item>
+        <item quantity="few">%d гады таму</item>
+        <item quantity="many">%d гадоў таму</item>
+        <item quantity="other">%d года таму</item>
+    </plurals>
+</resources>

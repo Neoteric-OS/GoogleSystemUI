@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__qs_data_saver_icon_on__1__0_res_0x7f0801d4"
+        android:duration="500"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="613.191"
+        android:valueType="floatType"
+        android:propertyName="rotation"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_data_saver_icon_on__1__1_res_0x7f0801d5"
+        android:duration="417"
+        android:startOffset="500"
+        android:valueFrom="613.191"
+        android:valueTo="720"
+        android:valueType="floatType"
+        android:propertyName="rotation"/>
+</set>

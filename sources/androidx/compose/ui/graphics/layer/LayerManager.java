@@ -1,0 +1,14 @@
+package androidx.compose.ui.graphics.layer;
+
+import android.os.Build;
+import java.util.Locale;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public abstract class LayerManager {
+    public static final /* synthetic */ int $r8$clinit = 0;
+
+    static {
+        Build.FINGERPRINT.toLowerCase(Locale.ROOT).equals("robolectric");
+    }
+}

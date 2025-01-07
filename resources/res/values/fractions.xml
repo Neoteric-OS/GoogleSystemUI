@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <fraction name="config_one_handed_offset">40%</fraction>
+    <fraction name="controls_toggle_bg_intensity">5%</fraction>
+    <fraction name="magnification_resize_window_size_amount">10%</fraction>
+</resources>

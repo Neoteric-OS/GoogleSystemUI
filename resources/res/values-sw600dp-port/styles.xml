@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AuthNonBioCredentialHeaderStyle" parent="">
+        <item name="android:layout_gravity">top</item>
+        <item name="android:paddingTop">80dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingStart">120dp</item>
+        <item name="android:paddingEnd">120dp</item>
+    </style>
+    <style name="TextAppearance.AuthNonBioCredential.Title" parent="@style/TextAppearance.AuthNonBioCredential">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">?android:^attr-private/materialColorOnSurface</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginTop">24dp</item>
+        <item name="android:fontFamily">@android:string/config_inCallNotificationSound</item>
+    </style>
+</resources>

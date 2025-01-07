@@ -1,0 +1,11 @@
+package com.android.wm.shell.compatui;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes2.dex */
+public final class CompatUIStatusManager {
+    public final CompatUIStatusManager$$ExternalSyntheticLambda0 mWriter;
+
+    public CompatUIStatusManager(CompatUIStatusManager$$ExternalSyntheticLambda0 compatUIStatusManager$$ExternalSyntheticLambda0) {
+        this.mWriter = compatUIStatusManager$$ExternalSyntheticLambda0;
+    }
+}

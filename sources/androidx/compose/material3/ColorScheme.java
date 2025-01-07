@@ -1,0 +1,135 @@
+package androidx.compose.material3;
+
+import androidx.compose.foundation.OverscrollConfiguration$$ExternalSyntheticOutline0;
+import androidx.compose.ui.graphics.Color;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public final class ColorScheme {
+    public final long background;
+    public ButtonColors defaultButtonColorsCached;
+    public CardColors defaultCardColorsCached;
+    public TopAppBarColors defaultCenterAlignedTopAppBarColorsCached;
+    public IconButtonColors defaultFilledIconButtonColorsCached;
+    public IconButtonColors defaultIconButtonColorsCached;
+    public ButtonColors defaultOutlinedButtonColorsCached;
+    public SliderColors defaultSliderColorsCached;
+    public ButtonColors defaultTextButtonColorsCached;
+    public TextFieldColors defaultTextFieldColorsCached;
+    public final long error;
+    public final long errorContainer;
+    public final long inverseOnSurface;
+    public final long inversePrimary;
+    public final long inverseSurface;
+    public final long onBackground;
+    public final long onError;
+    public final long onErrorContainer;
+    public final long onPrimary;
+    public final long onPrimaryContainer;
+    public final long onSecondary;
+    public final long onSecondaryContainer;
+    public final long onSurface;
+    public final long onSurfaceVariant;
+    public final long onTertiary;
+    public final long onTertiaryContainer;
+    public final long outline;
+    public final long outlineVariant;
+    public final long primary;
+    public final long primaryContainer;
+    public final long scrim;
+    public final long secondary;
+    public final long secondaryContainer;
+    public final long surface;
+    public final long surfaceBright;
+    public final long surfaceContainer;
+    public final long surfaceContainerHigh;
+    public final long surfaceContainerHighest;
+    public final long surfaceContainerLow;
+    public final long surfaceContainerLowest;
+    public final long surfaceDim;
+    public final long surfaceTint;
+    public final long surfaceVariant;
+    public final long tertiary;
+    public final long tertiaryContainer;
+
+    public ColorScheme(long j, long j2, long j3, long j4, long j5, long j6, long j7, long j8, long j9, long j10, long j11, long j12, long j13, long j14, long j15, long j16, long j17, long j18, long j19, long j20, long j21, long j22, long j23, long j24, long j25, long j26, long j27, long j28, long j29, long j30, long j31, long j32, long j33, long j34, long j35, long j36) {
+        this.primary = j;
+        this.onPrimary = j2;
+        this.primaryContainer = j3;
+        this.onPrimaryContainer = j4;
+        this.inversePrimary = j5;
+        this.secondary = j6;
+        this.onSecondary = j7;
+        this.secondaryContainer = j8;
+        this.onSecondaryContainer = j9;
+        this.tertiary = j10;
+        this.onTertiary = j11;
+        this.tertiaryContainer = j12;
+        this.onTertiaryContainer = j13;
+        this.background = j14;
+        this.onBackground = j15;
+        this.surface = j16;
+        this.onSurface = j17;
+        this.surfaceVariant = j18;
+        this.onSurfaceVariant = j19;
+        this.surfaceTint = j20;
+        this.inverseSurface = j21;
+        this.inverseOnSurface = j22;
+        this.error = j23;
+        this.onError = j24;
+        this.errorContainer = j25;
+        this.onErrorContainer = j26;
+        this.outline = j27;
+        this.outlineVariant = j28;
+        this.scrim = j29;
+        this.surfaceBright = j30;
+        this.surfaceDim = j31;
+        this.surfaceContainer = j32;
+        this.surfaceContainerHigh = j33;
+        this.surfaceContainerHighest = j34;
+        this.surfaceContainerLow = j35;
+        this.surfaceContainerLowest = j36;
+    }
+
+    public final String toString() {
+        StringBuilder sb = new StringBuilder("ColorScheme(primary=");
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.primary, "onPrimary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onPrimary, "primaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.primaryContainer, "onPrimaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onPrimaryContainer, "inversePrimary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.inversePrimary, "secondary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.secondary, "onSecondary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onSecondary, "secondaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.secondaryContainer, "onSecondaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onSecondaryContainer, "tertiary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.tertiary, "onTertiary=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onTertiary, "tertiaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.tertiaryContainer, "onTertiaryContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onTertiaryContainer, "background=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.background, "onBackground=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onBackground, "surface=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surface, "onSurface=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onSurface, "surfaceVariant=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceVariant, "onSurfaceVariant=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onSurfaceVariant, "surfaceTint=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceTint, "inverseSurface=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.inverseSurface, "inverseOnSurface=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.inverseOnSurface, "error=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.error, "onError=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onError, "errorContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.errorContainer, "onErrorContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.onErrorContainer, "outline=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.outline, "outlineVariant=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.outlineVariant, "scrim=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.scrim, "surfaceBright=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceBright, "surfaceDim=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceDim, "surfaceContainer=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceContainer, "surfaceContainerHigh=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceContainerHigh, "surfaceContainerHighest=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceContainerHighest, "surfaceContainerLow=", sb);
+        OverscrollConfiguration$$ExternalSyntheticOutline0.m(this.surfaceContainerLow, "surfaceContainerLowest=", sb);
+        sb.append((Object) Color.m369toStringimpl(this.surfaceContainerLowest));
+        sb.append(')');
+        return sb.toString();
+    }
+}

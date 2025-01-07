@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__qs_auto_rotate_icon_on__11__0_res_0x7f08014a"
+        android:duration="17"
+        android:startOffset="0"
+        android:valueFrom="7.062"
+        android:valueTo="8.578"
+        android:valueType="floatType"
+        android:propertyName="translateX"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_auto_rotate_icon_on__11__1_res_0x7f08014b"
+        android:duration="138"
+        android:startOffset="17"
+        android:valueFrom="8.578"
+        android:valueTo="-1.656"
+        android:valueType="floatType"
+        android:propertyName="translateX"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_auto_rotate_icon_on__11__2_res_0x7f08014c"
+        android:duration="261"
+        android:startOffset="155"
+        android:valueFrom="-1.656"
+        android:valueTo="-7"
+        android:valueType="floatType"
+        android:propertyName="translateX"/>
+</set>

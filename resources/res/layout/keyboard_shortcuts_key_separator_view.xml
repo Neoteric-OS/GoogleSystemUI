@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textSize="@dimen/ksh_item_text_size"
+    android:textColor="?android:^attr-private/materialColorOnSurfaceVariant"
+    android:gravity="center"
+    android:padding="@dimen/ksh_item_padding"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:minHeight="32dp"
+    android:text="@string/keyboard_shortcut_join"
+    android:singleLine="true"/>

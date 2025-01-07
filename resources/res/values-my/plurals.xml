@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">ပြီးခဲ့သော %d ရက်</item>
+        <item quantity="other">ပြီးခဲ့သော %d ရက်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">ပြီးခဲ့သော %d မိနစ်</item>
+        <item quantity="other">ပြီးခဲ့သော %d မိနစ်</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">ပြီးခဲ့သော %d နှစ်</item>
+        <item quantity="other">ပြီးခဲ့သော %d နှစ်</item>
+    </plurals>
+</resources>

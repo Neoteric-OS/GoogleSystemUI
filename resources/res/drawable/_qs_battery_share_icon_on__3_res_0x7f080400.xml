@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_share_icon_on__3__0_res_0x7f0801a8"
+        android:duration="167"
+        android:startOffset="0"
+        android:propertyName="translateXY"
+        android:pathData="M -1.328,6.211C -1.328,6.211 -1.335,6.574 -1.328,6.211"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_share_icon_on__3__1_res_0x7f0801a9"
+        android:duration="83"
+        android:startOffset="167"
+        android:propertyName="translateXY"
+        android:pathData="M -1.328,6.211C -1.328,6.211 -1.335,2.017 -1.328,1.654"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_share_icon_on__3__2_res_0x7f0801aa"
+        android:duration="83"
+        android:startOffset="250"
+        android:propertyName="translateXY"
+        android:pathData="M -1.328,1.654C -1.3130000000000002,0.832 -0.847,0.015 0.091,0"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_share_icon_on__3__3_res_0x7f0801ab"
+        android:duration="250"
+        android:startOffset="333"
+        android:propertyName="translateXY"
+        android:pathData="M 0.091,0C 0.981,-0.014 3.14,0 3.75,0"
+        android:propertyXName="translateX"
+        android:propertyYName="translateY"/>
+</set>

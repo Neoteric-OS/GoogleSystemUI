@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">Пред %d ден</item>
+        <item quantity="other">Пред %d дена</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">Пред %d мин.</item>
+        <item quantity="other">Пред %d мин.</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">Пред %d г.</item>
+        <item quantity="other">Пред %d г.</item>
+    </plurals>
+</resources>

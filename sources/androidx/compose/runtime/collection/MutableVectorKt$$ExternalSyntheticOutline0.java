@@ -1,0 +1,9 @@
+package androidx.compose.runtime.collection;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public abstract /* synthetic */ class MutableVectorKt$$ExternalSyntheticOutline0 {
+    public static String m(int i, int i2, String str, String str2, String str3) {
+        return str + i + str2 + i2 + str3;
+    }
+}

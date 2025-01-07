@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.KeyboardShortcutAppItemLayout xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_background"
+    android:paddingBottom="8dp"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/ksh_app_item_minimum_height">
+    <ImageView
+        android:layout_gravity="center_vertical"
+        android:id="@+id/keyboard_shortcuts_icon"
+        android:visibility="gone"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="24dp"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="16sp"
+        android:textColor="?android:^attr-private/materialColorOnSurface"
+        android:id="@+id/keyboard_shortcuts_keyword"
+        android:paddingBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:scrollHorizontally="false"
+        android:singleLine="false"
+        android:layout_centerVertical="true"
+        android:paddingEnd="12dp"
+        android:layout_toEndOf="@+id/keyboard_shortcuts_icon"
+        android:layout_alignParentStart="true"/>
+    <com.android.systemui.statusbar.KeyboardShortcutKeysLayout
+        android:textSize="14sp"
+        android:orientation="horizontal"
+        android:id="@+id/keyboard_shortcuts_item_container"
+        android:padding="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollHorizontally="false"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/keyboard_shortcuts_keyword"
+        android:layout_alignParentEnd="true"/>
+</com.android.systemui.statusbar.KeyboardShortcutAppItemLayout>

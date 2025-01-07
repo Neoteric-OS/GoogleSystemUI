@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__unlocked_to_locked__4__0_res_0x7f08026f"
+        android:duration="333"
+        android:startOffset="0"
+        android:valueFrom="22.25"
+        android:valueTo="22.25"
+        android:valueType="floatType"
+        android:propertyName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__unlocked_to_locked__4__1_res_0x7f080270"
+        android:duration="67"
+        android:startOffset="333"
+        android:valueFrom="22.25"
+        android:valueTo="24.25"
+        android:valueType="floatType"
+        android:propertyName="translateY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__unlocked_to_locked__4__2_res_0x7f080271"
+        android:duration="100"
+        android:startOffset="400"
+        android:valueFrom="24.25"
+        android:valueTo="22.25"
+        android:valueType="floatType"
+        android:propertyName="translateY"/>
+</set>

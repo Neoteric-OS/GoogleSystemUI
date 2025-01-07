@@ -1,0 +1,21 @@
+package androidx.preference;
+
+import android.R;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public abstract class R$styleable {
+    public static final int[] BackgroundStyle = {R.attr.selectableItemBackground, com.android.wm.shell.R.attr.selectableItemBackground};
+    public static final int[] CheckBoxPreference = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, com.android.wm.shell.R.attr.disableDependentsState, com.android.wm.shell.R.attr.summaryOff, com.android.wm.shell.R.attr.summaryOn};
+    public static final int[] DialogPreference = {R.attr.dialogTitle, R.attr.dialogMessage, R.attr.dialogIcon, R.attr.positiveButtonText, R.attr.negativeButtonText, R.attr.dialogLayout, com.android.wm.shell.R.attr.dialogIcon, com.android.wm.shell.R.attr.dialogLayout, com.android.wm.shell.R.attr.dialogMessage, com.android.wm.shell.R.attr.dialogTitle, com.android.wm.shell.R.attr.negativeButtonText, com.android.wm.shell.R.attr.positiveButtonText};
+    public static final int[] EditTextPreference = {com.android.wm.shell.R.attr.useSimpleSummaryProvider};
+    public static final int[] ListPreference = {R.attr.entries, R.attr.entryValues, com.android.wm.shell.R.attr.entries, com.android.wm.shell.R.attr.entryValues, com.android.wm.shell.R.attr.useSimpleSummaryProvider};
+    public static final int[] MultiSelectListPreference = {R.attr.entries, R.attr.entryValues, com.android.wm.shell.R.attr.entries, com.android.wm.shell.R.attr.entryValues};
+    public static final int[] Preference = {R.attr.icon, R.attr.persistent, R.attr.enabled, R.attr.layout, R.attr.title, R.attr.selectable, R.attr.key, R.attr.summary, R.attr.order, R.attr.widgetLayout, R.attr.dependency, R.attr.defaultValue, R.attr.shouldDisableView, R.attr.fragment, R.attr.singleLineTitle, R.attr.iconSpaceReserved, com.android.wm.shell.R.attr.allowDividerAbove, com.android.wm.shell.R.attr.allowDividerBelow, com.android.wm.shell.R.attr.defaultValue, com.android.wm.shell.R.attr.dependency, com.android.wm.shell.R.attr.enableCopying, com.android.wm.shell.R.attr.enabled, com.android.wm.shell.R.attr.fragment, com.android.wm.shell.R.attr.icon, com.android.wm.shell.R.attr.iconSpaceReserved, com.android.wm.shell.R.attr.isPreferenceVisible, com.android.wm.shell.R.attr.key, com.android.wm.shell.R.attr.layout, com.android.wm.shell.R.attr.order, com.android.wm.shell.R.attr.persistent, com.android.wm.shell.R.attr.selectable, com.android.wm.shell.R.attr.shouldDisableView, com.android.wm.shell.R.attr.singleLineTitle, com.android.wm.shell.R.attr.summary, com.android.wm.shell.R.attr.title, com.android.wm.shell.R.attr.widgetLayout};
+    public static final int[] PreferenceFragment = {R.attr.layout, R.attr.divider, R.attr.dividerHeight, com.android.wm.shell.R.attr.allowDividerAfterLastItem};
+    public static final int[] PreferenceGroup = {R.attr.orderingFromXml, com.android.wm.shell.R.attr.initialExpandedChildrenCount, com.android.wm.shell.R.attr.orderingFromXml};
+    public static final int[] PreferenceImageView = {R.attr.maxWidth, R.attr.maxHeight, com.android.wm.shell.R.attr.maxHeight, com.android.wm.shell.R.attr.maxWidth};
+    public static final int[] SeekBarPreference = {R.attr.layout, R.attr.max, com.android.wm.shell.R.attr.adjustable, com.android.wm.shell.R.attr.min, com.android.wm.shell.R.attr.seekBarIncrement, com.android.wm.shell.R.attr.showSeekBarValue, com.android.wm.shell.R.attr.updatesContinuously};
+    public static final int[] SwitchPreference = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.android.wm.shell.R.attr.disableDependentsState, com.android.wm.shell.R.attr.summaryOff, com.android.wm.shell.R.attr.summaryOn, com.android.wm.shell.R.attr.switchTextOff, com.android.wm.shell.R.attr.switchTextOn};
+    public static final int[] SwitchPreferenceCompat = {R.attr.summaryOn, R.attr.summaryOff, R.attr.disableDependentsState, R.attr.switchTextOn, R.attr.switchTextOff, com.android.wm.shell.R.attr.disableDependentsState, com.android.wm.shell.R.attr.summaryOff, com.android.wm.shell.R.attr.summaryOn, com.android.wm.shell.R.attr.switchTextOff, com.android.wm.shell.R.attr.switchTextOn};
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__qs_mic_access_off__5__0_res_0x7f080216"
+        android:duration="250"
+        android:startOffset="0"
+        android:valueFrom="M-9.89 -7.81 C-9.89,-7.81 -9.9,-7.8 -9.9,-7.8 C-9.9,-7.8 -8.5,-9.2 -8.5,-9.2 C-8.5,-9.2 -8.49,-9.21 -8.49,-9.21 C-8.49,-9.21 -9.89,-7.81 -9.89,-7.81c "
+        android:valueTo="M8.5 10.6 C8.5,10.6 -9.9,-7.8 -9.9,-7.8 C-9.9,-7.8 -8.5,-9.2 -8.5,-9.2 C-8.5,-9.2 9.9,9.2 9.9,9.2 C9.9,9.2 8.5,10.6 8.5,10.6c "
+        android:valueType="pathType"
+        android:propertyName="pathData"/>
+</set>

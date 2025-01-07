@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__pin_dot_shape_6_avd__3__0_res_0x7f080109"
+        android:duration="67"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleX"/>
+    <objectAnimator
+        android:interpolator="@drawable/__pin_dot_shape_6_avd__3__1_res_0x7f08010a"
+        android:duration="67"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="scaleY"/>
+    <objectAnimator
+        android:interpolator="@drawable/__pin_dot_shape_6_avd__3__2_res_0x7f08010b"
+        android:duration="283"
+        android:startOffset="67"
+        android:valueFrom="1"
+        android:valueTo="0.35"
+        android:valueType="floatType"
+        android:propertyName="scaleX"/>
+    <objectAnimator
+        android:interpolator="@drawable/__pin_dot_shape_6_avd__3__3_res_0x7f08010c"
+        android:duration="283"
+        android:startOffset="67"
+        android:valueFrom="1"
+        android:valueTo="0.35"
+        android:valueType="floatType"
+        android:propertyName="scaleY"/>
+</set>

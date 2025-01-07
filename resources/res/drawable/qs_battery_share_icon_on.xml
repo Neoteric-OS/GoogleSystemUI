@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_qs_battery_share_icon_on__10_res_0x7f0803fe">
+    <target
+        android:name="_R_G_L_2_G_D_0_P_0"
+        android:animation="@drawable/_qs_battery_share_icon_on__0_res_0x7f0803fc"/>
+    <target
+        android:name="_R_G_L_2_G_D_0_P_1"
+        android:animation="@drawable/_qs_battery_share_icon_on__1_res_0x7f0803fd"/>
+    <target
+        android:name="_R_G_L_1_G_D_0_P_0"
+        android:animation="@drawable/_qs_battery_share_icon_on__2_res_0x7f0803ff"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_battery_share_icon_on__3_res_0x7f080400"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_battery_share_icon_on__4_res_0x7f080401"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_battery_share_icon_on__5_res_0x7f080402"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_qs_battery_share_icon_on__6_res_0x7f080403"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_qs_battery_share_icon_on__7_res_0x7f080404"/>
+    <target
+        android:name="_R_G_L_0_G_T_1"
+        android:animation="@drawable/_qs_battery_share_icon_on__8_res_0x7f080405"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_qs_battery_share_icon_on__9_res_0x7f080406"/>
+</animated-vector>

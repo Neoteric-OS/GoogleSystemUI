@@ -1,0 +1,16 @@
+package androidx.core.os;
+
+import android.os.ext.SdkExtensions;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public abstract class BuildCompat {
+    public static final /* synthetic */ int $r8$clinit = 0;
+
+    static {
+        SdkExtensions.getExtensionVersion(30);
+        SdkExtensions.getExtensionVersion(31);
+        SdkExtensions.getExtensionVersion(33);
+        SdkExtensions.getExtensionVersion(1000000);
+    }
+}

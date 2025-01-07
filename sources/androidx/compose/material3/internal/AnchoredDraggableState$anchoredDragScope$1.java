@@ -1,0 +1,11 @@
+package androidx.compose.material3.internal;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public final class AnchoredDraggableState$anchoredDragScope$1 implements AnchoredDragScope {
+    public final /* synthetic */ AnchoredDraggableState this$0;
+
+    public AnchoredDraggableState$anchoredDragScope$1(AnchoredDraggableState anchoredDraggableState) {
+        this.this$0 = anchoredDraggableState;
+    }
+}

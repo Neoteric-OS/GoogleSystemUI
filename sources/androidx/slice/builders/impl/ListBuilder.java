@@ -1,0 +1,13 @@
+package androidx.slice.builders.impl;
+
+import androidx.slice.builders.ListBuilder;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public interface ListBuilder {
+    void addRow(ListBuilder.RowBuilder rowBuilder);
+
+    void setHeader(ListBuilder.HeaderBuilder headerBuilder);
+
+    void setTtl();
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.wm.shell.windowdecor.WindowDecorLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:id="@+id/desktop_mode_caption"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <com.android.wm.shell.windowdecor.HandleImageButton
+        android:id="@+id/caption_handle"
+        android:background="@android:color/transparent"
+        android:layout_width="@dimen/desktop_mode_fullscreen_decor_caption_width"
+        android:layout_height="@dimen/desktop_mode_fullscreen_decor_caption_height"
+        android:src="@drawable/decor_handle_dark"
+        android:scaleType="fitXY"
+        android:contentDescription="@string/handle_text"
+        android:importantForAccessibility="yes"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="16dp"
+        android:screenReaderFocusable="true"/>
+</com.android.wm.shell.windowdecor.WindowDecorLinearLayout>

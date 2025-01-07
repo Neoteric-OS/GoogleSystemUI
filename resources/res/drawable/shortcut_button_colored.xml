@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:androidprv="http://schemas.android.com/apk/prv/res/android" xmlns:android="http://schemas.android.com/apk/res/android">
+    <ripple android:color="?android:attr/colorControlHighlight">
+        <item>
+            <shape android:shape="rectangle">
+                <corners android:radius="@dimen/ksh_button_corner_radius"/>
+                <solid android:color="?android:^attr-private/materialColorSurfaceBright"/>
+            </shape>
+        </item>
+    </ripple>
+</inset>

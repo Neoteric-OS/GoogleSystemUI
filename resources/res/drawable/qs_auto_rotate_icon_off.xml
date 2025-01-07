@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_qs_auto_rotate_icon_off__14_res_0x7f0803cd">
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__0_res_0x7f0803c7"/>
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__1_res_0x7f0803c8"/>
+    <target
+        android:name="_R_G_L_2_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__2_res_0x7f0803ce"/>
+    <target
+        android:name="_R_G_L_2_G_N_1_T_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__3_res_0x7f0803cf"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__4_res_0x7f0803d0"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__5_res_0x7f0803d1"/>
+    <target
+        android:name="_R_G_L_1_G_T_1"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__6_res_0x7f0803d2"/>
+    <target
+        android:name="_R_G_L_1_G_N_1_T_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__7_res_0x7f0803d3"/>
+    <target
+        android:name="_R_G_L_0_G_D_0_P_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__8_res_0x7f0803d4"/>
+    <target
+        android:name="_R_G_L_0_G_D_1_P_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__9_res_0x7f0803d5"/>
+    <target
+        android:name="_R_G_L_0_G_D_2_P_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__10_res_0x7f0803c9"/>
+    <target
+        android:name="_R_G_L_0_G_D_3_P_0"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__11_res_0x7f0803ca"/>
+    <target
+        android:name="_R_G_L_0_G"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__12_res_0x7f0803cb"/>
+    <target
+        android:name="time_group"
+        android:animation="@drawable/_qs_auto_rotate_icon_off__13_res_0x7f0803cc"/>
+</animated-vector>

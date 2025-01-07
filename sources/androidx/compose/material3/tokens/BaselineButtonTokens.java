@@ -1,0 +1,15 @@
+package androidx.compose.material3.tokens;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+public abstract class BaselineButtonTokens {
+    public static final float LeadingSpace;
+    public static final float TrailingSpace;
+
+    static {
+        float f = ElevationTokens.Level0;
+        float f2 = (float) 24.0d;
+        LeadingSpace = f2;
+        TrailingSpace = f2;
+    }
+}

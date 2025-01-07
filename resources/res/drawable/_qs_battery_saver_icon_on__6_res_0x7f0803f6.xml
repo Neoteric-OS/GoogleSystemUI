@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:ordering="together">
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_saver_icon_on__6__0_res_0x7f080191"
+        android:duration="417"
+        android:startOffset="0"
+        android:valueFrom="0"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_saver_icon_on__6__1_res_0x7f080192"
+        android:duration="83"
+        android:startOffset="417"
+        android:valueFrom="0"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_saver_icon_on__6__2_res_0x7f080193"
+        android:duration="267"
+        android:startOffset="500"
+        android:valueFrom="1"
+        android:valueTo="1"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha"/>
+    <objectAnimator
+        android:interpolator="@drawable/__qs_battery_saver_icon_on__6__3_res_0x7f080194"
+        android:duration="83"
+        android:startOffset="767"
+        android:valueFrom="1"
+        android:valueTo="0"
+        android:valueType="floatType"
+        android:propertyName="fillAlpha"/>
+</set>

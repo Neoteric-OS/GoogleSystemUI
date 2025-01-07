@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="abc_slice_duration_days">
+        <item quantity="one">%d วันที่ผ่านมา</item>
+        <item quantity="other">%d วันที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abc_slice_duration_min">
+        <item quantity="one">%d นาทีที่ผ่านมา</item>
+        <item quantity="other">%d นาทีที่ผ่านมา</item>
+    </plurals>
+    <plurals name="abc_slice_duration_years">
+        <item quantity="one">%d ปีที่ผ่านมา</item>
+        <item quantity="other">%d ปีที่ผ่านมา</item>
+    </plurals>
+</resources>

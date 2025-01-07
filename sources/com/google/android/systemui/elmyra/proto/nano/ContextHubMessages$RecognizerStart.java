@@ -1,0 +1,50 @@
+package com.google.android.systemui.elmyra.proto.nano;
+
+import com.google.protobuf.nano.CodedInputByteBufferNano;
+import com.google.protobuf.nano.CodedOutputByteBufferNano;
+import com.google.protobuf.nano.MessageNano;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes2.dex */
+public final class ContextHubMessages$RecognizerStart extends MessageNano {
+    public float progressReportThreshold = 0.0f;
+    public float sensitivity = 0.0f;
+
+    public ContextHubMessages$RecognizerStart() {
+        this.cachedSize = -1;
+    }
+
+    @Override // com.google.protobuf.nano.MessageNano
+    public final int computeSerializedSize() {
+        int computeFloatSize = Float.floatToIntBits(this.progressReportThreshold) != Float.floatToIntBits(0.0f) ? CodedOutputByteBufferNano.computeFloatSize(1) : 0;
+        return Float.floatToIntBits(this.sensitivity) != Float.floatToIntBits(0.0f) ? computeFloatSize + CodedOutputByteBufferNano.computeFloatSize(2) : computeFloatSize;
+    }
+
+    @Override // com.google.protobuf.nano.MessageNano
+    public final MessageNano mergeFrom(CodedInputByteBufferNano codedInputByteBufferNano) {
+        while (true) {
+            int readTag = codedInputByteBufferNano.readTag();
+            if (readTag == 0) {
+                break;
+            }
+            if (readTag == 13) {
+                this.progressReportThreshold = codedInputByteBufferNano.readFloat();
+            } else if (readTag == 21) {
+                this.sensitivity = codedInputByteBufferNano.readFloat();
+            } else if (!codedInputByteBufferNano.skipField(readTag)) {
+                break;
+            }
+        }
+        return this;
+    }
+
+    @Override // com.google.protobuf.nano.MessageNano
+    public final void writeTo(CodedOutputByteBufferNano codedOutputByteBufferNano) {
+        if (Float.floatToIntBits(this.progressReportThreshold) != Float.floatToIntBits(0.0f)) {
+            codedOutputByteBufferNano.writeFloat(1, this.progressReportThreshold);
+        }
+        if (Float.floatToIntBits(this.sensitivity) != Float.floatToIntBits(0.0f)) {
+            codedOutputByteBufferNano.writeFloat(2, this.sensitivity);
+        }
+    }
+}

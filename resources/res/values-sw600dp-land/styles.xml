@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.AuthNonBioCredential.Description" parent="@style/TextAppearance.AuthNonBioCredential">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:^attr-private/materialColorOnSurface</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@android:string/config_inCallNotificationSound</item>
+    </style>
+    <style name="TextAppearance.AuthNonBioCredential.Subtitle" parent="@style/TextAppearance.AuthNonBioCredential">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?android:^attr-private/materialColorOnSurface</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@android:string/config_inCallNotificationSound</item>
+    </style>
+    <style name="TextAppearance.AuthNonBioCredential.Title" parent="@style/TextAppearance.AuthNonBioCredential">
+        <item name="android:textSize">36sp</item>
+        <item name="android:textColor">?android:^attr-private/materialColorOnSurface</item>
+        <item name="android:focusable">true</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:fontFamily">@android:string/config_inCallNotificationSound</item>
+    </style>
+</resources>

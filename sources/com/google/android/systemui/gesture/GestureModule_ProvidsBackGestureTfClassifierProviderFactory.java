@@ -1,0 +1,11 @@
+package com.google.android.systemui.gesture;
+
+import dagger.internal.Provider;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes2.dex */
+public abstract class GestureModule_ProvidsBackGestureTfClassifierProviderFactory implements Provider {
+    public static BackGestureTfClassifierProviderGoogle providsBackGestureTfClassifierProvider(String str) {
+        return new BackGestureTfClassifierProviderGoogle(str);
+    }
+}

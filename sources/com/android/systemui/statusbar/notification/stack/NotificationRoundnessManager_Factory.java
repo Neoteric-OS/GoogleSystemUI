@@ -1,0 +1,18 @@
+package com.android.systemui.statusbar.notification.stack;
+
+import com.android.systemui.dump.DumpManager;
+import dagger.internal.Provider;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes2.dex */
+public abstract class NotificationRoundnessManager_Factory implements Provider {
+    public static NotificationRoundnessManager newInstance(DumpManager dumpManager) {
+        NotificationRoundnessManager notificationRoundnessManager = new NotificationRoundnessManager();
+        notificationRoundnessManager.mSwipedView = null;
+        notificationRoundnessManager.mViewBeforeSwipedView = null;
+        notificationRoundnessManager.mViewAfterSwipedView = null;
+        dumpManager.getClass();
+        DumpManager.registerDumpable$default(dumpManager, "NotificationRoundnessManager", notificationRoundnessManager);
+        return notificationRoundnessManager;
+    }
+}

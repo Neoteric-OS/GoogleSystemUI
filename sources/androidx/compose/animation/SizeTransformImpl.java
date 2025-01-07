@@ -1,0 +1,13 @@
+package androidx.compose.animation;
+
+import kotlin.jvm.functions.Function2;
+
+/* compiled from: go/retraceme 97024faaf470985feb378c0f604e66d2eca678dbbb151206fad2ab4525fd6f86 */
+/* loaded from: classes.dex */
+final class SizeTransformImpl implements SizeTransform {
+    public final Function2 sizeAnimationSpec;
+
+    public SizeTransformImpl(Function2 function2) {
+        this.sizeAnimationSpec = function2;
+    }
+}
